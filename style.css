@@ -8,21 +8,26 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
+    border-bottom: 160px;
 }
 .half-width{
     width: 50%;
     padding-left: 2%;
 }
 .half-width img{
-    width: 100%;
+    width: 80%;
 }
 p{
     margin-bottom: 60px;
+    color: gray;
+    font-weight: 400;
+    width: 80%;
 }
 .link-button{
     color: white;
+    font-weight: 600;
     font-size: 15px;
     padding: 15px 40px;
     text-decoration: none;
@@ -33,4 +38,41 @@ p{
     background-image: url(./image/top-banner.png);
     background-repeat: no-repeat;
     
+}
+.margin-top-dibo{
+    margin-top: 200px;
+    background-image: url(./image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.border-left-dibo1{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, orange);
+    border-image-slice: 1;
+    box-shadow: 5px 10px 18px #888888;
+    padding:40px 50px;
+    margin-left: 30px;
+
+}
+.margin-top-dibo-akhon{
+    margin-top: 150px;
+}
+.border-left-dibo2{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    box-shadow: 5px 10px 18px #888888;
+    padding:40px 50px;
+    margin-left: 30px;
+}
+.margin-bottom-dibo{
+    background-image: url(./image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+    margin-bottom: 150px;
+    margin-top: 60px;
+}
+.pra-lage{
+    text-align: center;
 }
